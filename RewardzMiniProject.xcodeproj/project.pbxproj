@@ -14,6 +14,21 @@
 		EDE81B752A9F599800E0513D /* RewardzMiniProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDE81B732A9F599800E0513D /* RewardzMiniProject.xcdatamodeld */; };
 		EDE81B772A9F599B00E0513D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE81B762A9F599B00E0513D /* Assets.xcassets */; };
 		EDE81B7A2A9F599B00E0513D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE81B782A9F599B00E0513D /* LaunchScreen.storyboard */; };
+		EDE81B832A9F6A3000E0513D /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE81B822A9F6A3000E0513D /* NameViewController.swift */; };
+		EDE81B852A9F6DF400E0513D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE81B842A9F6DF400E0513D /* HomeViewController.swift */; };
+		EDE81B932A9F740300E0513D /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE81B912A9F740300E0513D /* TopTableViewCell.swift */; };
+		EDE81B942A9F740300E0513D /* TopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE81B922A9F740300E0513D /* TopTableViewCell.xib */; };
+		EDE81B972A9F785100E0513D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EDE81B962A9F785100E0513D /* IQKeyboardManagerSwift */; };
+		EDE81B9A2A9F7AAC00E0513D /* RecommendedComboTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE81B982A9F7AAC00E0513D /* RecommendedComboTableViewCell.swift */; };
+		EDE81B9B2A9F7AAC00E0513D /* RecommendedComboTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE81B992A9F7AAC00E0513D /* RecommendedComboTableViewCell.xib */; };
+		EDE81BA02A9F895500E0513D /* RecommendedContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE81B9E2A9F895500E0513D /* RecommendedContentTableViewCell.swift */; };
+		EDE81BA12A9F895500E0513D /* RecommendedContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE81B9F2A9F895500E0513D /* RecommendedContentTableViewCell.xib */; };
+		EDE81BA42A9F897800E0513D /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE81BA22A9F897800E0513D /* ContentCollectionViewCell.swift */; };
+		EDE81BA52A9F897800E0513D /* ContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE81BA32A9F897800E0513D /* ContentCollectionViewCell.xib */; };
+		EDE81BAA2A9F8CEF00E0513D /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE81BA92A9F8CEF00E0513D /* Food.swift */; };
+		EDE81BAD2A9F8D2100E0513D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE81BAC2A9F8D2100E0513D /* HomeViewModel.swift */; };
+		EDE81BB02A9F9CA800E0513D /* ContentHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE81BAE2A9F9CA800E0513D /* ContentHeaderTableViewCell.swift */; };
+		EDE81BB12A9F9CA800E0513D /* ContentHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE81BAF2A9F9CA800E0513D /* ContentHeaderTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,20 @@
 		EDE81B762A9F599B00E0513D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE81B792A9F599B00E0513D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDE81B7B2A9F599B00E0513D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE81B822A9F6A3000E0513D /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		EDE81B842A9F6DF400E0513D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EDE81B912A9F740300E0513D /* TopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
+		EDE81B922A9F740300E0513D /* TopTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopTableViewCell.xib; sourceTree = "<group>"; };
+		EDE81B982A9F7AAC00E0513D /* RecommendedComboTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedComboTableViewCell.swift; sourceTree = "<group>"; };
+		EDE81B992A9F7AAC00E0513D /* RecommendedComboTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendedComboTableViewCell.xib; sourceTree = "<group>"; };
+		EDE81B9E2A9F895500E0513D /* RecommendedContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedContentTableViewCell.swift; sourceTree = "<group>"; };
+		EDE81B9F2A9F895500E0513D /* RecommendedContentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendedContentTableViewCell.xib; sourceTree = "<group>"; };
+		EDE81BA22A9F897800E0513D /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		EDE81BA32A9F897800E0513D /* ContentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		EDE81BA92A9F8CEF00E0513D /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		EDE81BAC2A9F8D2100E0513D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EDE81BAE2A9F9CA800E0513D /* ContentHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		EDE81BAF2A9F9CA800E0513D /* ContentHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentHeaderTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE81B972A9F785100E0513D /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +88,86 @@
 		EDE81B692A9F599800E0513D /* RewardzMiniProject */ = {
 			isa = PBXGroup;
 			children = (
-				EDE81B6A2A9F599800E0513D /* AppDelegate.swift */,
-				EDE81B6C2A9F599800E0513D /* SceneDelegate.swift */,
-				EDE81B6E2A9F599800E0513D /* ViewController.swift */,
-				EDE81B702A9F599800E0513D /* Main.storyboard */,
-				EDE81B762A9F599B00E0513D /* Assets.xcassets */,
-				EDE81B782A9F599B00E0513D /* LaunchScreen.storyboard */,
+				EDE81BAB2A9F8D1200E0513D /* ViewModel */,
+				EDE81BA82A9F8CE000E0513D /* Model */,
+				EDE81B8A2A9F710800E0513D /* SupportingFiles */,
+				EDE81B882A9F70E000E0513D /* View */,
 				EDE81B7B2A9F599B00E0513D /* Info.plist */,
 				EDE81B732A9F599800E0513D /* RewardzMiniProject.xcdatamodeld */,
 			);
 			path = RewardzMiniProject;
+			sourceTree = "<group>";
+		};
+		EDE81B862A9F70D300E0513D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EDE81B912A9F740300E0513D /* TopTableViewCell.swift */,
+				EDE81B922A9F740300E0513D /* TopTableViewCell.xib */,
+				EDE81B982A9F7AAC00E0513D /* RecommendedComboTableViewCell.swift */,
+				EDE81B992A9F7AAC00E0513D /* RecommendedComboTableViewCell.xib */,
+				EDE81B9E2A9F895500E0513D /* RecommendedContentTableViewCell.swift */,
+				EDE81B9F2A9F895500E0513D /* RecommendedContentTableViewCell.xib */,
+				EDE81BA22A9F897800E0513D /* ContentCollectionViewCell.swift */,
+				EDE81BA32A9F897800E0513D /* ContentCollectionViewCell.xib */,
+				EDE81BAE2A9F9CA800E0513D /* ContentHeaderTableViewCell.swift */,
+				EDE81BAF2A9F9CA800E0513D /* ContentHeaderTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EDE81B872A9F70D700E0513D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EDE81B6E2A9F599800E0513D /* ViewController.swift */,
+				EDE81B822A9F6A3000E0513D /* NameViewController.swift */,
+				EDE81B842A9F6DF400E0513D /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EDE81B882A9F70E000E0513D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDE81B892A9F70F100E0513D /* Storyboard */,
+				EDE81B872A9F70D700E0513D /* ViewController */,
+				EDE81B862A9F70D300E0513D /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDE81B892A9F70F100E0513D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EDE81B702A9F599800E0513D /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EDE81B8A2A9F710800E0513D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EDE81B762A9F599B00E0513D /* Assets.xcassets */,
+				EDE81B6A2A9F599800E0513D /* AppDelegate.swift */,
+				EDE81B6C2A9F599800E0513D /* SceneDelegate.swift */,
+				EDE81B782A9F599B00E0513D /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		EDE81BA82A9F8CE000E0513D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDE81BA92A9F8CEF00E0513D /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDE81BAB2A9F8D1200E0513D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDE81BAC2A9F8D2100E0513D /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +186,9 @@
 			dependencies = (
 			);
 			name = RewardzMiniProject;
+			packageProductDependencies = (
+				EDE81B962A9F785100E0513D /* IQKeyboardManagerSwift */,
+			);
 			productName = RewardzMiniProject;
 			productReference = EDE81B672A9F599800E0513D /* RewardzMiniProject.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +217,9 @@
 				Base,
 			);
 			mainGroup = EDE81B5E2A9F599800E0513D;
+			packageReferences = (
+				EDE81B952A9F785100E0513D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = EDE81B682A9F599800E0513D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +234,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE81BA52A9F897800E0513D /* ContentCollectionViewCell.xib in Resources */,
 				EDE81B7A2A9F599B00E0513D /* LaunchScreen.storyboard in Resources */,
 				EDE81B772A9F599B00E0513D /* Assets.xcassets in Resources */,
+				EDE81B9B2A9F7AAC00E0513D /* RecommendedComboTableViewCell.xib in Resources */,
+				EDE81BA12A9F895500E0513D /* RecommendedContentTableViewCell.xib in Resources */,
 				EDE81B722A9F599800E0513D /* Main.storyboard in Resources */,
+				EDE81BB12A9F9CA800E0513D /* ContentHeaderTableViewCell.xib in Resources */,
+				EDE81B942A9F740300E0513D /* TopTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +256,15 @@
 				EDE81B6B2A9F599800E0513D /* AppDelegate.swift in Sources */,
 				EDE81B752A9F599800E0513D /* RewardzMiniProject.xcdatamodeld in Sources */,
 				EDE81B6D2A9F599800E0513D /* SceneDelegate.swift in Sources */,
+				EDE81BAA2A9F8CEF00E0513D /* Food.swift in Sources */,
+				EDE81BA42A9F897800E0513D /* ContentCollectionViewCell.swift in Sources */,
+				EDE81B9A2A9F7AAC00E0513D /* RecommendedComboTableViewCell.swift in Sources */,
+				EDE81BAD2A9F8D2100E0513D /* HomeViewModel.swift in Sources */,
+				EDE81BB02A9F9CA800E0513D /* ContentHeaderTableViewCell.swift in Sources */,
+				EDE81B832A9F6A3000E0513D /* NameViewController.swift in Sources */,
+				EDE81BA02A9F895500E0513D /* RecommendedContentTableViewCell.swift in Sources */,
+				EDE81B852A9F6DF400E0513D /* HomeViewController.swift in Sources */,
+				EDE81B932A9F740300E0513D /* TopTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +482,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDE81B952A9F785100E0513D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDE81B962A9F785100E0513D /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDE81B952A9F785100E0513D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		EDE81B732A9F599800E0513D /* RewardzMiniProject.xcdatamodeld */ = {
