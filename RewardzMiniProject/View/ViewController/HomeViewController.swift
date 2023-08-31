@@ -36,6 +36,7 @@ class HomeViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.separatorColor = .clear
+        tableView.allowsSelection = false
         tableView.register(UINib(nibName: "TopTableViewCell", bundle: nil), forCellReuseIdentifier: "topCell")
         tableView.register(UINib(nibName: "RecommendedComboTableViewCell", bundle: nil), forCellReuseIdentifier: "recHeader")
         tableView.register(UINib(nibName: "RecommendedContentTableViewCell", bundle: nil), forCellReuseIdentifier: "recContent")
